@@ -5,10 +5,12 @@
 ## 구현 API
 > 총 개발기간은 6 weeks를 목표로 함
 > decody, jinavely: 각자 전체 개발을 목표로 함
-> 예시
-> GET /api/dashboard
-> GET /api/members/1
-> POST /api/members
+```javascript
+   // 예시
+   GET /api/dashboard
+   GET /api/members/1
+   POST /api/members
+```
 1. 인증
 2. User 권한관리 
     - admin : 전체 카테고리 접근 
@@ -33,7 +35,7 @@
 - utils
 - config
 
-** Express 기반 REST API 프로젝트 설명
+## Express 기반 REST API 프로젝트 설명
 - 견고한 node.js 프로젝트 설계하기 : *https://velog.io/@hopsprings2/%EA%B2%AC%EA%B3%A0%ED%95%9C-node.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90-%EC%84%A4%EA%B3%84%ED%95%98%EA%B8%B0*
 - How to structure an Express.js REST API with best practices : *https://blog.treblle.com/egergr/*
 - Node.js, Express and MongoDB Project Structure (github) : *https://github.com/MoathShraim/Nodejs-rest-api-project-structure-Express*
@@ -46,13 +48,13 @@
 - Express RESTful 설계: *https://velog.io/@smooth97/Node.js-Restful-API-wok2wqo7yu*
 - REST API를 보다 RESTful하게 : *https://pronist.dev/146*
 
-** Express 공식 문서
+## Express 공식 문서
 - *https://expressjs.com/en/guide/routing.html*
 
-** logger 라이브러리 소개 및 구현
+## logger 라이브러리 소개 및 구현
 - *https://github.com/MoathShraim/Nodejs-rest-api-project-structure-Express*
 
-** sqlite3 튜토리얼
+## sqlite3 튜토리얼
 - w3schools SQL (온라인 테스트 가능) : *https://www.w3schools.com/sql/*
 - sqlite3 기초 실습 (웹북) : *https://wikidocs.net/12452*
 - 위 sqlite3 강의 유튜브 : *https://www.youtube.com/watch?v=nvt16QqaktA*
