@@ -73,3 +73,6 @@
 - Vue Financial Dash : *https://github.com/dongprojectteam/vue3_examples/tree/main/8/aws/database*
 - o2obnb 백엔드 클론 (모델링 포함, github 예제) : *https://github.com/wecode-bootcamp-korea/37-2nd-O2bnb-backend*
 - sqlite3 활용한 DB구축 미션 : *https://github.com/wecode-bootcamp-korea/justgram-node-7-team2*
+- sample-node-api : https://github.com/zowe/sample-node-api/tree/master/src
+- social-media-api : https://github.com/nixrajput/social-media-api-nodejs\
+- 인프런 image api : https://github.com/hoffnung8493/image-tutorial/blob/master/routes/userRouter.js

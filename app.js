@@ -10,10 +10,9 @@ const cors = require('cors');
 const { addColors } = require('winston/lib/winston/config');
 
 
-// const globalRoutes = require('./routes/globalRoutes');
-// const AppError = require('./utils/appError')
+const userRouter = require('./routes/userRouter');
 const app = express();
-const server = http.createServer(app]);
+const server = http.createServer(app);
 
 // allow corss-origin requests
 app.use(cors());
@@ -41,10 +40,16 @@ app.use(xss());
 // prevent parameter pollution
 app.use(hpp());
 
+// router
+app.use('/api/users', userRouter);
+
+
+
 // handle undefined Routes
 // app.use('*', (req, res, next) => {
 //     const err = new AppError(404, 'fail', 'undefined route');
 //     next(err, req, res, next);
 // });
+
 
 module.exports = app;

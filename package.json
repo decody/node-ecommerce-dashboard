@@ -2,9 +2,9 @@
   "name": "node-ecommerce-dashboard",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon ./index.js --delay 2",
+    "dev": "nodemon ./server.js --delay 2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "githulroh@gmail.com",
@@ -14,11 +14,14 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
     "helmet": "^6.0.0",
+    "hpp": "^0.2.2",
     "nodemon": "^2.0.20",
     "passport": "^0.6.0",
     "path": "^0.12.7",
     "sqlite3": "^5.0.0",
-    "winston": "^3.8.2"
+    "winston": "^3.8.2",
+    "xss-clean": "^0.1.1"
   }
 }
